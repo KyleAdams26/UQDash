@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "A suggested citation for UQdash."
+title: "UQdash"
+type: software
+
+authors:
+  - family-names: "Adams"
+    given-names: "Kyle"
+
+abstract: >
+  UQdash is an open-source Python dashboard for uncertainty quantification,
+  parameter analysis, sensitivity analysis, and model exploration for
+  mathematical and computational models.
+
+version: "1.0.0"
+version title: "Fresh Explorations"
+date-released: "2026-06-28"
+
+doi: "10.5281/zenodo.21016769"
+
+repository-code: "https://github.com/KyleAdams26/UQdash"
+url: "https://github.com/KyleAdams26/UQdash"
+
+license: "MIT"
+
+keywords:
+  - uncertainty quantification
+  - sensitivity analysis
+  - parameter analysis
+  - mathematical modeling
+  - computational modeling
+  - scientific computing
+  - Python
