@@ -129,7 +129,7 @@ python --version
 Clone the repository
 
 ```bash
-git clone https://github.com/<KyleAdams2600>/UQDash.git
+git clone https://github.com/<KyleAdams26>/UQDash.git
 cd UQDash
 ```
 
