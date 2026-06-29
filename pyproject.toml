@@ -1,0 +1,42 @@
+[project]
+name = "uqdash"
+version = "0.1.0"
+description = "An interactive dashboard for uncertainty quantification, sensitivity analysis, calibration, validation, and mechanistic model exploration."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "Kyle Adams", email = "kyleadams2600@gmail.com" }
+]
+keywords = [
+    "uncertainty quantification",
+    "sensitivity analysis",
+    "calibration",
+    "validation",
+    "mechanistic modeling",
+    "streamlit"
+]
+
+dependencies = [
+    "streamlit>=1.58",
+    "numpy>=2.4",
+    "scipy>=1.18",
+    "pandas>=3.0",
+    "matplotlib>=3.11",
+    "plotly>=6.8",
+    "SALib>=1.5",
+    "scikit-learn>=1.9",
+    "umap-learn>=0.5",
+    "tabulate>=0.10",
+    "tqdm>=4.68",
+    "numba>=0.65"
+]
+
+[project.urls]
+Homepage = "https://github.com/kyleadams2600/UQDash"
+Repository = "https://github.com/kyleadams2600/UQDash"
+Issues = "https://github.com/kyleadams2600/UQDash/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["uqdash*"]
